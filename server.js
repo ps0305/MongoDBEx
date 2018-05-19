@@ -15,5 +15,5 @@ app.get("/products",function(req,res){
     });
 });
 //Assign the port
-Server.listen(8080);
+app.listen(8080);
 console.log("server is listening at port no. 8080");
